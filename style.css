@@ -16,7 +16,7 @@ body, html
 nav
 {
 	width: 100%;
-  position: absolute;  
+  	position: absolute;  
 	text-align: center; 
 	line-height: 140px;
 	z-index: 2; 
@@ -66,13 +66,13 @@ nav a:hover
 /* Background 1 */
 #picture2
 {
-	background-image:url(../surprise/img/loop.jpg); 
+	background-image:url(https://github.com/BuseKadir/busekadir.github.io/blob/main/img/loop.jpg?raw=true); 
 }
 
 /* Background 2 */
 #picture3
 {
-	background-image:url(../surprise/img/loop2.jpg);
+	background-image:url(https://github.com/BuseKadir/busekadir.github.io/blob/main/img/loop2.jpg?raw=true);
 	object-fit: cover;
 }
 
