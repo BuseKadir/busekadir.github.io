@@ -1,0 +1,136 @@
+/* Sayfa başlangıç noktası */
+*
+{
+	margin: 0px; 
+	padding: 0px; 
+}
+
+/* HTML sayfası üzerinde Body'nin duruş özellikleri */
+body, html
+{
+	height: 100%; 
+	width: 100%;  
+}
+
+/* nav barın özellikleri */
+nav
+{
+	width: 100%;
+  position: absolute;  
+	text-align: center; 
+	line-height: 140px;
+	z-index: 2; 
+	position: fixed;
+}
+
+/* nav bar üzerindeki linklerin özellikleri */
+nav a
+{ 
+	color: white;
+	font-family: 'Rowdies', cursive;
+	text-decoration: 20px; 
+	margin-left: 15px; 
+	padding: 12px 12px; 
+	border-radius: 5px; 
+}
+
+/* nav barın hover özellikleri */
+nav a:hover
+{
+	background-color: black;
+}
+
+/* görsellerin altındaki renk */
+.picture
+{
+	height: 100%; 
+	width: 100%; 
+	background-color: lightblue; 
+	background-size:cover ; 
+	background-attachment: fixed;
+}
+
+/* Geçişler arasındaki ban ekranları  */
+.ban
+{
+	height: 50%; 
+	background-color:darkgray;
+}
+
+/* Banner */
+#picture1
+{
+	background-image:url(../surprise/img/we3.jpg);
+}
+
+/* Background 1 */
+#picture2
+{
+	background-image:url(../surprise/img/loop.jpg); 
+}
+
+/* Background 2 */
+#picture3
+{
+	background-image:url(../surprise/img/loop2.jpg);
+	object-fit: cover;
+}
+
+/* main üzerindeki header'ların özellikleri */
+.mainh
+{
+	position: absolute; 
+	float: left;
+}
+
+/* main üzerindeki text'lerin özellikleri */
+.mainText
+{
+	width: 100%; 
+	height: 100%; 
+	z-index:1;
+	text-align: center;
+	margin-top: 270px;
+}
+
+/* mainText üzerindeki h1 özellikleri */
+.mainText h1
+{
+	color: white;
+}
+
+/* mainText üzerindeki p özellikleri */
+.mainText p
+{
+	color: white; 
+	padding-bottom: 10px;
+}
+
+/* mainText üzerindeki span özellikleri */
+.mainText span
+{
+	color: white;
+	padding: 10px 10px; 
+	background-color: #6b2828; 
+	font-size: 12px; 
+	border: 1px solid darkgray;
+	border-radius: 5px; 
+}
+
+/* mainText üzerindeki span'ın hover özellikleri */
+.mainText span: hover
+{
+	color: white; 
+	background-color: black; 
+	cursor: pointer;
+}
+
+/* bottomText üzerindeki text özellikleri */
+.bottomText
+{ 
+	width: 100%;
+	height: 100%;
+	background-color: black; 
+	z-index: 0; 
+	opacity: 0.20;
+}
